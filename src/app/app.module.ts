@@ -3,6 +3,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from "@angular/forms";
 
+import { MatButtonModule } from "@angular/material";
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -13,6 +15,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule, 
     FormsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
