@@ -1,0 +1,58 @@
+<div class="container my-container">
+    <div class="row my-row">
+        <!-- col-x values if specififed must add up to 12 -->
+        <!-- Below example os 4 + 8 = 12 -->
+        <!-- Anything less than 12 will result in whitespace -->
+        <div class="col my-col">
+            Row 1 Col 1
+        </div>
+        <div class="col my-col">
+            Row 1 Col 2
+        </div>
+    </div>
+    <!-- col-sm, col-md etc. are used to define the size of the column based off device screen size -->
+    <!-- Same as above, must equal 12 and anything less will be whitespace -->
+    <!-- col-sm-12 means that on small devices the column will take up the entire row -->
+    <!-- col-md-6 means that on medium devices the column will take up 1/2 the row -->
+    <div class="row my-row">
+        <div class="col-sm-12 col-md-6 my-col">
+            Row 2 Col 1
+        </div>
+        <div class="col-sm-12 col-md-6 my-col">
+            Row 2 Col 2
+        </div>
+    </div>
+    <!-- For row level configuration you can use flex properties -->
+    <!-- justify-content for hoizontal row level configuration -->
+    <!-- align-items for vertical row level configuration -->
+    <div class="row justify-content-around my-row">
+        <!-- For column level configuration you can also use flex properties -->
+        <!-- justify-self for horizontal column level configuration -->
+        <!-- align-self for vertical column level configuration -->
+        <div class="col-3 align-self-start my-col">
+            Row 3 Col 1
+        </div>
+        <div class="col-3 align-self-center my-col">
+            Row 3 Col 2
+        </div>
+        <div class="col-3 align-self-end my-col">
+            Row 3 Col 3
+        </div>
+        <div class="col-3 align-self-stretch my-col">
+            Row 3 Col 4
+        </div>
+    </div>
+    <!-- order-x can be used to reorder items in a bootstrap grid -->
+    <!-- Can be useful for responsive buttons, items etc -->
+    <!-- Lower number in the order wins and will be first -->
+    <!-- order-x can also be used with bootstrap size class -->
+    <!-- Example below switches the order of columns on medium or larger devices -->
+    <div class="row my-row">
+        <div class="col-sm-12 col-md-6 order-md-2 my-col">
+            Row 4 Col 1
+        </div>
+        <div class="col-sm-12 col-md-6 my-col">
+            Row 4 Col 2
+        </div>
+    </div>
+</div>
