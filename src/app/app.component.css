@@ -1,0 +1,25 @@
+.technologyFlexContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.htmlFlexItem, .cssFlexItem, .jsFlexItem {
+    font-size: 200px;
+    height: inherit;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.htmlFlexItem {
+    color: crimson;
+}
+
+.cssFlexItem {
+    color: #1572b7;
+}
+
+.jsFlexItem {
+    color: #f7df1e;
+}
