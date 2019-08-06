@@ -15,6 +15,8 @@ import { ThreeColumnSectionComponent } from './bootstrap-responsive-site/three-c
 import { TwoColumnSectionComponent } from './bootstrap-responsive-site/two-column-section/two-column-section.component';
 import { FixedBackgroundComponent } from './bootstrap-responsive-site/fixed-background/fixed-background.component';
 import { EmojiSectionComponent } from './bootstrap-responsive-site/emoji-section/emoji-section.component';
+import { MeetTheTeamComponent } from './bootstrap-responsive-site/meet-the-team/meet-the-team.component';
+import { CardsSectionComponent } from './bootstrap-responsive-site/cards-section/cards-section.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { EmojiSectionComponent } from './bootstrap-responsive-site/emoji-section
     TwoColumnSectionComponent,
     FixedBackgroundComponent,
     EmojiSectionComponent,
+    MeetTheTeamComponent,
+    CardsSectionComponent,
   ],
   imports: [
     BrowserModule,
