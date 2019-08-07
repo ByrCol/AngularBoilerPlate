@@ -1,2 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* Angular Material Theme Import */
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+/* Bootstrap Responsive Site Global CSS */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.display-4 {
+    font-size: 200%;
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 160%;
+    }
+}
