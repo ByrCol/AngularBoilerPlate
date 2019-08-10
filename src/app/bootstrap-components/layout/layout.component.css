@@ -1,0 +1,27 @@
+hr {
+    background-color: black;
+}
+
+.r-1 {
+    border: 3px solid yellowgreen;
+}
+
+.height {
+    height: 100px;
+}
+
+.c-c-1 {
+    border: 3px dotted black;
+}
+
+.c-c-2 {
+    border: 3px dotted red;
+}
+
+.c-c-3 {
+    border: 3px dotted blue;
+}
+
+.c-c-4 {
+    border: 3px dotted purple;
+}

@@ -19,6 +19,7 @@ import { MeetTheTeamComponent } from './bootstrap-responsive-site/meet-the-team/
 import { CardsSectionComponent } from './bootstrap-responsive-site/cards-section/cards-section.component';
 import { ConnectionsSectionComponent } from './bootstrap-responsive-site/connections-section/connections-section.component';
 import { FooterComponent } from './bootstrap-responsive-site/footer/footer.component';
+import { LayoutComponent } from './bootstrap-components/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { FooterComponent } from './bootstrap-responsive-site/footer/footer.compo
     CardsSectionComponent,
     ConnectionsSectionComponent,
     FooterComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
