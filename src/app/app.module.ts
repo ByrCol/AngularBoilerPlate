@@ -21,6 +21,7 @@ import { ConnectionsSectionComponent } from './bootstrap-responsive-site/connect
 import { FooterComponent } from './bootstrap-responsive-site/footer/footer.component';
 import { LayoutComponent } from './bootstrap-components/layout/layout.component';
 import { GridPlaygroundComponent } from './grid-layouts/grid-playground/grid-playground.component';
+import { CardsComponent } from './components/cards/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { GridPlaygroundComponent } from './grid-layouts/grid-playground/grid-pla
     FooterComponent,
     LayoutComponent,
     GridPlaygroundComponent,
+    CardsComponent,
   ],
   imports: [
     BrowserModule,
